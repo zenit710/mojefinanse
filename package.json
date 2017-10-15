@@ -1,7 +1,7 @@
 {
-  "name": "angular-library",
+  "name": "zenit710/moje-finanse",
   "version": "1.0.0",
-  "description": "Simple angular links library",
+  "description": "Aplikacja do zarządzania prywatnymi finansami",
   "main": "server.js",
   "scripts": {
     "build": "gulp clean build",
