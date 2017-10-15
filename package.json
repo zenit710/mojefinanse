@@ -1,0 +1,43 @@
+{
+  "name": "angular-library",
+  "version": "1.0.0",
+  "description": "Simple angular links library",
+  "main": "server.js",
+  "scripts": {
+    "build": "gulp clean build",
+    "lint": "gulp lint",
+    "start": "node ./build/server",
+    "watch": "nodemon ./build/server"
+  },
+  "author": "Kamil Małek <malek.kamil@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.7",
+    "errorhandler": "^1.5.0",
+    "express": "^4.15.4",
+    "method-override": "^2.3.9",
+    "mongoose": "^4.11.6",
+    "morgan": "^1.8.2",
+    "q": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/body-parser": "^1.16.4",
+    "@types/errorhandler": "0.0.30",
+    "@types/express": "^4.0.36",
+    "@types/method-override": "0.0.29",
+    "@types/mongoose": "^4.7.19",
+    "@types/morgan": "^1.7.32",
+    "@types/q": "^1.0.3",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-cli": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.0",
+    "gulp-ts": "^0.3.0",
+    "gulp-tslint": "^8.1.2",
+    "gulp-typescript": "^3.2.1",
+    "tslint": "^5.6.0",
+    "typescript": "^2.4.2"
+  }
+}

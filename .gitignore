@@ -1,0 +1,11 @@
+.idea/
+build/
+node_modules/
+npm-debug.log
+client/dist
+client/tmp
+client/out-tsc
+client/e2e/*.js
+client/e2e/*.map
+client/.DS_Store
+client/Thumbs.db
