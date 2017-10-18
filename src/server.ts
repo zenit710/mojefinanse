@@ -34,6 +34,8 @@ export class Server
         this.app.set("view engine", "ejs");
         this.app.engine("html", require("ejs").renderFile);
 
+        this.app.use(morgan("dev"));
+
         global.Promise = require("q").Promise;
         mongoose.Promise = global.Promise;
 
