@@ -7,7 +7,8 @@ import mongoose = require("mongoose");
 import errorHandler = require("errorhandler");
 import methodOverride = require("method-override");
 
-//import routes
+// import routes
+import * as IndexRouter from "./routes/IndexRoutes";
 
 const DATABASE: string = "mongodb://localhost/moje-finanse";
 const APP_PORT: number = 8080; //process.env.PORT || 8080
@@ -61,7 +62,7 @@ export class Server
     {
         let router: express.Router = express.Router();
 
-        //router.use("/", IndexRouter);
+        router.use("/", IndexRouter);
 
         this.app.use(router);
     }
