@@ -1,5 +1,5 @@
 {
-  "name": "zenit710/moje-finanse",
+  "name": "moje-finanse",
   "version": "1.0.0",
   "description": "Aplikacja do zarządzania prywatnymi finansami",
   "main": "server.js",
